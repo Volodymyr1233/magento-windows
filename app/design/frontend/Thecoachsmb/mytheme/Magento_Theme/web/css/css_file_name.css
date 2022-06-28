@@ -1,0 +1,10 @@
+.navigation li.ui-menu-item a {
+    padding: 5px;
+    color: white !important;
+    font-weight: normal !important;
+    font-size: 14px;
+    text-transform: uppercase !important;
+}
+.navigation{
+    text-align: center;
+}
