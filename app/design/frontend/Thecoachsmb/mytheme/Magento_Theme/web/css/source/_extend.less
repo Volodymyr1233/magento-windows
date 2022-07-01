@@ -73,21 +73,22 @@
         &.content {
             .menu {
                 float: left;
-                width: 2000px;
+                width: 1500px;
                 color: @menu__font-color;
                 padding: 40px;
                 .menu__column1{
                     float: left;
                     width: 250px;
                     display: inline-block;
-                    position: absolute;
-                    left: 390px;
+                    position: relative;
+                    right: 50px;
+                    //left: 390px;
                 }
                 .menu__column2{
                     float: left;
                     width: 250px;
                     display: inline-block;
-                    padding-left: 300px;
+                    padding-left: 50px;
                 }
                 .menu__column3{
                     float: left;
@@ -220,10 +221,18 @@
     .main_content {
     max-width: 940px; //970
     }
+    .menu {
+        max-width: 940px;
+        padding-left: 20px;
+    }
 }
 @media(max-width: 1020px) { //992
     .main_content {
         max-width: 720px; //750
+    }
+    .menu {
+        max-width: 720px;
+        padding-left: 15px;
     }
 }
 
@@ -231,9 +240,17 @@
     .main_content {
         max-width: 520px; //550
     }
+    .menu {
+        max-width: 520px;
+        padding-left: 10px;
+    }
 }
 @media(max-width: 610px) { //576
     .main_content {
         max-width: none;
+    }
+    .menu {
+        max-width: none;
+        padding-left: 5px;
     }
 }
