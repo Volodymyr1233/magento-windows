@@ -16,5 +16,10 @@
         <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template" name="main_content" template="Magento_Theme::content.phtml"/>
         </referenceContainer>
+        <referenceContainer name="header.container">
+            <container name="head_adapt" htmlTag="div" htmlClass="header_adaptive" >
+
+            </container>
+        </referenceContainer>
     </body>
 </page>
